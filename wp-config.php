@@ -78,14 +78,22 @@ define( 'DB_COLLATE',  '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         getenv_docker('WORDPRESS_AUTH_KEY',         '5683c43b9f703c8244b13573d598828f08cb3b3e') );
-define( 'SECURE_AUTH_KEY',  getenv_docker('WORDPRESS_SECURE_AUTH_KEY',  'fb3b42078d741709a8a18ba70a9656cb9b983dd8') );
-define( 'LOGGED_IN_KEY',    getenv_docker('WORDPRESS_LOGGED_IN_KEY',    '0ff9fdf0aa727b4079297feaaf1f580fd63383ce') );
-define( 'NONCE_KEY',        getenv_docker('WORDPRESS_NONCE_KEY',        'd7731aabfd33ce121d54a2d475f48825e7d59691') );
-define( 'AUTH_SALT',        getenv_docker('WORDPRESS_AUTH_SALT',        'b73fa2624b7febd411de634c0b55c5458924c325') );
-define( 'SECURE_AUTH_SALT', getenv_docker('WORDPRESS_SECURE_AUTH_SALT', 'ea2c22d385e1f7918a47ef81e571cc675b9f7a3b') );
-define( 'LOGGED_IN_SALT',   getenv_docker('WORDPRESS_LOGGED_IN_SALT',   'dedd9f5a8143fbc3686da64ecf393082014188b4') );
-define( 'NONCE_SALT',       getenv_docker('WORDPRESS_NONCE_SALT',       '2108f9e469ccf07935755055c278d4bfb6245286') );
+// define( 'AUTH_KEY',         getenv_docker('WORDPRESS_AUTH_KEY',         '5683c43b9f703c8244b13573d598828f08cb3b3e') );
+// define( 'SECURE_AUTH_KEY',  getenv_docker('WORDPRESS_SECURE_AUTH_KEY',  'fb3b42078d741709a8a18ba70a9656cb9b983dd8') );
+// define( 'LOGGED_IN_KEY',    getenv_docker('WORDPRESS_LOGGED_IN_KEY',    '0ff9fdf0aa727b4079297feaaf1f580fd63383ce') );
+// define( 'NONCE_KEY',        getenv_docker('WORDPRESS_NONCE_KEY',        'd7731aabfd33ce121d54a2d475f48825e7d59691') );
+// define( 'AUTH_SALT',        getenv_docker('WORDPRESS_AUTH_SALT',        'b73fa2624b7febd411de634c0b55c5458924c325') );
+// define( 'SECURE_AUTH_SALT', getenv_docker('WORDPRESS_SECURE_AUTH_SALT', 'ea2c22d385e1f7918a47ef81e571cc675b9f7a3b') );
+// define( 'LOGGED_IN_SALT',   getenv_docker('WORDPRESS_LOGGED_IN_SALT',   'dedd9f5a8143fbc3686da64ecf393082014188b4') );
+// define( 'NONCE_SALT',       getenv_docker('WORDPRESS_NONCE_SALT',       '2108f9e469ccf07935755055c278d4bfb6245286') );
+define('AUTH_KEY',         '_#GW`%5Zvn~Y8D}usjte>P-f@m;FP%&IWb$O@&%EfdbbN9}c-qjM!w(>+<*e>z-r');
+define('SECURE_AUTH_KEY',  'Nq$DWoBnx^.EGh`y_|w{-_*A;1=MtaJuE9fE%:*+nH.zBt:>ySm-Pqp|%+?xxFI(');
+define('LOGGED_IN_KEY',    ']PHYp}t/c>mup*?o.aI,dZhM.prLcguT:R>2Gw|@H6vO.T7)eb[BBz~.2>2[HBcX');
+define('NONCE_KEY',        'I+%b_b&2L|z]Af6>+jO^AZR4@-I(NMl)o>-8UlWv^3p:{#<~.:DxZ0I=!k).(,/_');
+define('AUTH_SALT',        '8T0)1Ipm$|PP_.2(-YZGc*U+-B*wkr@AD8~|N1?|rp4}qo-|~(%tWbjZ;gj-?}x`');
+define('SECURE_AUTH_SALT', '{NF3DcXg=pKPGnz<}&Y[2G<xD&|wKhI6Sw_n/ku`5cP_G/qBH?X>g-4vhy71Ir>1');
+define('LOGGED_IN_SALT',   'xNK<cK0j!fqUs-O>3FcM+dS!U|&t/Be;vq6O.|f0-?JZ*Qo+?K7B=H2-Ba06!p.|');
+define('NONCE_SALT',       'gdg?DP~U98nV>sq!|$cE|eYI.&o.W}k14-P:m-/uw:@DZ5Dg]JND0rZ+KI^7UC[3');
 // (See also https://wordpress.stackexchange.com/a/152905/199287)
 
 /**#@-*/
