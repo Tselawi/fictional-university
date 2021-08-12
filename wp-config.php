@@ -45,13 +45,13 @@ if(file_exists(dirname(__FILE__) . '/local.php' )){
 	define( 'DB_NAME', 'university_data');
 	define( 'DB_USER', 'root');
 	define( 'DB_PASSWORD', 'root');
-	define( 'DB_HOST', 'mysql');
+	define( 'DB_HOST', 'localhost');
 } else {
 	// sql live database settings 
 	define( 'DB_NAME', 'tariqdat_univeristy-data');
 	define( 'DB_USER', 'tariqdat_wp572');
 	define( 'DB_PASSWORD', 'Tariq1988');
-	define( 'DB_HOST', 'mysql');
+	define( 'DB_HOST', 'localhost');
 }
 
 
