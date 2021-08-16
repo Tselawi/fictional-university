@@ -40,19 +40,16 @@ if (!function_exists('getenv_docker')) {
 	}
 }
 
-if(file_exists(dirname(__FILE__) . '/local.php' )){
 	// sql local database settings
-	define( 'DB_NAME', 'university_data');
-	define( 'DB_USER', 'root');
-	define( 'DB_PASSWORD', 'root');
-	define( 'DB_HOST', 'localhost');
-} else {
-	// sql live database settings 
-	define( 'DB_NAME', 'tariqdat_univeristy-data');
-	define( 'DB_USER', 'tariqdat_wp912');
-	define( 'DB_PASSWORD', 'Tariq1988');
-	define( 'DB_HOST', 'localhost');
-}
+	// define( 'DB_NAME', 'university_data');
+	// define( 'DB_USER', 'root');
+	// define( 'DB_PASSWORD', 'root');
+	// define( 'DB_HOST', 'mysql');
+
+	 define( 'DB_NAME', 'xTWwtNxC4v');
+	 define( 'DB_USER', 'xTWwtNxC4v');
+	 define( 'DB_PASSWORD', 'UxSmCN8yFq');
+	 define( 'DB_HOST', 'remotemysql.com');
 
 
 
