@@ -1,1 +1,1 @@
-web:/Users/tariq/Desktop/wordpress-project/wordpress/wp-content/themes/fictionaluniversity
+web: heroku-php-apache2
